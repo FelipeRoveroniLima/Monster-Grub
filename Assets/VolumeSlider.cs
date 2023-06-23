@@ -11,5 +11,6 @@ public class VolumeSlider : MonoBehaviour
     public void SetVolume(float volume)
     {
         volumeNumber.text = volume.ToString();
+        
     }
 }
